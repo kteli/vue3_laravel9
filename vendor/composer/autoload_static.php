@@ -411,8 +411,8 @@ class ComposerStaticInit90e4ff7af84ac5cc74ac372a5633fcb6
         ),
         'League\\Uri\\' => 
         array (
-            0 => __DIR__ . '/..' . '/league/uri-interfaces/src',
-            1 => __DIR__ . '/..' . '/league/uri/src',
+            0 => __DIR__ . '/..' . '/league/uri/src',
+            1 => __DIR__ . '/..' . '/league/uri-interfaces/src',
         ),
         'League\\OAuth2\\Server\\' => 
         array (
@@ -587,6 +587,8 @@ class ComposerStaticInit90e4ff7af84ac5cc74ac372a5633fcb6
     public static $classMap = array (
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
+        'App\\Http\\Controllers\\Api\\AppController' => __DIR__ . '/../..' . '/app/Http/Controllers/Api/AppController.php',
+        'App\\Http\\Controllers\\Api\\AuthController' => __DIR__ . '/../..' . '/app/Http/Controllers/Api/AuthController.php',
         'App\\Http\\Controllers\\Api\\CompanyController' => __DIR__ . '/../..' . '/app/Http/Controllers/Api/CompanyController.php',
         'App\\Http\\Controllers\\Api\\PostController' => __DIR__ . '/../..' . '/app/Http/Controllers/Api/PostController.php',
         'App\\Http\\Controllers\\Api\\UserController' => __DIR__ . '/../..' . '/app/Http/Controllers/Api/UserController.php',
